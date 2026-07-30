@@ -9,11 +9,11 @@ is required.
 VTP is three repos, one system. **This site consumes; it is not the source of truth:**
 
 - **Brand tokens, voice, and design system** are canonical in **`vtp_voice`**
-  (github.com/ThePraxium/vtp_voice). Don't hand-tune colors/type here — they're mirrored from
+  (github.com/TheColtonWilliams/vtp_voice). Don't hand-tune colors/type here — they're mirrored from
   there (see the provenance comments in `css/style.css`). Mission/vision/values come from
   `vtp_voice/brand/facts.json`.
 - **Governance/transparency documents, the embedded report, team roster, EIN, and
-  donation/campaign IDs** are owned in **`vtp_governance`** (github.com/ThePraxium/vtp_governance,
+  donation/campaign IDs** are owned in **`vtp_governance`** (github.com/TheColtonWilliams/vtp_governance,
   private) and published via its `public` Drive. The Drive embeds on `documents.html` /
   `VTP-Report-2025.html` are keyed to file IDs tracked in
   `vtp_governance/governance/classification/website-embed-manifest.md` — don't re-upload those
